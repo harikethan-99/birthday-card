@@ -1,0 +1,71 @@
+* {
+  padding: 1rem;
+  text-align: center;
+  /*background-color: #f089b1;*/
+}
+body {
+  background-color: #f089b1;
+}
+.background {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4rem 1rem 5rem #bd3569;
+  width: 33%;
+  margin-left: 30%;
+  font-family: "worksans";
+}
+.background h1 {
+  text-align: left;
+  font-weight: 100;
+}
+button {
+  border-radius: 10px;
+  border-style: none;
+  background-image: linear-gradient(to right, #e66ed0, #fe69a3);
+  color: #fff;
+  font-family: work-sans;
+  width: 93%;
+  font-size: larger;
+}
+.card {
+  display: grid;
+  grid-template-columns: 7rem 7rem;
+  padding: 0px;
+}
+.card h3 {
+  font-size: medium;
+  text-align: left;
+  font-weight: 500;
+  padding: 0%;
+}
+.card h4 {
+  padding: 0%;
+  font-weight: 100;
+  font-size: small;
+  text-align: left;
+}
+.card img {
+  object-fit: cover;
+  height: 95px;
+  width: 90px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 500px) {
+  * {
+    padding: 0.5rem;
+  }
+  .background {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  * {
+    padding: 1rem;
+  }
+  .background {
+    width: 60%;
+    margin-left: 3rem;
+  }
+}
